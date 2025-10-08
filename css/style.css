@@ -133,3 +133,24 @@ img {
     /* DEBUG */
     height: 200px;
 }
+.jumbo-img{
+   background-color: orange; 
+   width: 400px;
+
+   /* DEBUG */
+   height: 300px;
+}
+.jumbo-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.jumbo-text{
+    background-color: yellow;
+    width: 300px;
+
+    /* DEBUG */
+    height: 200px;
+}
+.business
