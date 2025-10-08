@@ -18,7 +18,7 @@ img {
     display: flex;
     justify-content: space-between;
     /* DEBUG */
-    height: 50px;
+    height: 80px;
 }
 
 .header-item-container {
@@ -26,7 +26,7 @@ img {
     background-color: aqua;
     width: 30%;
     /* DEBUG */
-    height: 50px;
+    height: 80px;
 }
 
 .hero-container {
@@ -36,7 +36,7 @@ img {
     justify-content: center;
     align-items: end;
     /* DEBUG */
-    height: 500px;
+    height: 600px;
 }
 
 .big-flex-container {
@@ -44,7 +44,7 @@ img {
     width: 60%;
 
     /* DEBUG */
-    height: 420px;
+    height: 500px;
 }
 
 .hero-title {
@@ -67,8 +67,8 @@ img {
     background-color: brown;
     width: 65%;
     position: relative;
-    left: 268px;
-    bottom: 313px;
+    left: 322px;
+    bottom: 373px;
 
     /* DEBUG */
     height: 85%;
