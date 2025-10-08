@@ -1,10 +1,29 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
+}
+
+/* COMMON */
+/* LAYOUT */
+
+.header-container{
+    background-color: violet;
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    height: 50px;
+}
+.header-item-container{
+   
+    background-color: aqua;
+    width: 30%;
+    /* DEBUG */
+    height: 50px;
 }
