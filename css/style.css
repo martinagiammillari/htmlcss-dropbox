@@ -73,3 +73,63 @@ img {
     /* DEBUG */
     height: 85%;
 }
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+}
+
+.small-flex-container {
+    margin-top: 150px;
+    background-color: pink;
+    width: 50%;
+}
+
+.plan-title {
+    background-color: green;
+    width: 60%;
+
+    /* DEBUG */
+    height: 50px;
+}
+
+.plan-billing {
+    background-color: bisque;
+    width: 40%;
+
+    margin-top: 30px;
+
+    /* DEBUG */
+    height: 30px;
+}
+
+.plan-column {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 30%;
+
+    /* DEBUG */
+    height: 800px;
+}
+
+.plan-column-header {
+    border: 1px solid black;
+    width: 100%;
+
+    /* DEBUG */
+    height: 30px;
+}
+
+.plan-column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-row {
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 100%;
+
+    /* DEBUG */
+    height: 200px;
+}
