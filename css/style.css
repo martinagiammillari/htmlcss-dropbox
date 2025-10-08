@@ -12,18 +12,64 @@ img {
 /* COMMON */
 /* LAYOUT */
 
-.header-container{
+.header-container {
     background-color: violet;
     width: 100%;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     /* DEBUG */
     height: 50px;
 }
-.header-item-container{
-   
+
+.header-item-container {
+
     background-color: aqua;
     width: 30%;
     /* DEBUG */
     height: 50px;
+}
+
+.hero-container {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* DEBUG */
+    height: 500px;
+}
+
+.big-flex-container {
+    border: 2px solid blue;
+    width: 60%;
+
+    /* DEBUG */
+    height: 420px;
+}
+
+.hero-title {
+    background-color: blueviolet;
+    width: 100%;
+
+    /* DEBUG */
+    height: 25%;
+}
+
+.hero-text {
+    background-color: aquamarine;
+    width: 35%;
+
+    /* DEBUG */
+    height: 75%;
+}
+
+.hero-img {
+    background-color: brown;
+    width: 65%;
+    position: relative;
+    left: 268px;
+    bottom: 313px;
+
+    /* DEBUG */
+    height: 85%;
 }
