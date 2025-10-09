@@ -36,21 +36,20 @@ justify-content: space-around;
 }
 
 .hero-container {
+    padding-top: 100px;
+    padding-bottom: 15px;;
     background-color: lightblue;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
-    /* DEBUG */
-    height: 600px;
+   
 }
 
 .big-flex-container {
-    border: 2px solid blue;
     width: 70%;
 
-    /* DEBUG */
-    height: 500px;
+
 }
 
 .hero-title {
@@ -59,17 +58,23 @@ justify-content: space-around;
 
 }
 
+
 .hero-text {
     width: 30%;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 300px;
 }
+
 
 .hero-img {
     /* background-color: brown; */
-    width: 70%;
-    position: relative;
-    left: 32%;
-    bottom:28% ;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    top:52% ;
 
 }
 
@@ -106,13 +111,15 @@ justify-content: space-around;
     margin-top: 30px;
     border: 1px solid grey;
     width: 30%;
+   
+    
 
     /* DEBUG */
     height: 800px;
 }
 
 .plan-column-header {
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     width: 100%;
     text-align: center;
     padding: 5px 5px;
@@ -263,14 +270,16 @@ footer {
 }
 
 .btn{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+padding: 10px;
+    max-width: 60%;
 }
 .btn-blue{
     background-color: rgb(33, 96, 221);
     color: white;
+}
+
+.btn-white{
+    border: 1px solid grey;
 }
 .logo-small{
         object-fit: contain;
@@ -291,4 +300,8 @@ footer {
 }
 .grey-text{
     color: grey;
+}
+
+.big-icon{
+    font-size: 2.5rem;
 }
