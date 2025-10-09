@@ -47,7 +47,7 @@ justify-content: space-around;
 
 .big-flex-container {
     border: 2px solid blue;
-    width: 60%;
+    width: 70%;
 
     /* DEBUG */
     height: 500px;
@@ -60,13 +60,13 @@ justify-content: space-around;
 }
 
 .hero-text {
-    width: 35%;
+    width: 30%;
     padding-top: 50px;
 }
 
 .hero-img {
     /* background-color: brown; */
-    width: 75%;
+    width: 70%;
     position: relative;
     left: 32%;
     bottom:28% ;
@@ -79,32 +79,32 @@ justify-content: space-around;
 }
 
 .small-flex-container {
-    margin-top: 150px;
+    margin-top: 200px;
     background-color: pink;
     width: 60%;
 }
 
 .plan-title {
-    background-color: green;
-    width: 60%;
-
-    /* DEBUG */
-    height: 50px;
+  font-size: 1.2rem;
+    width: 65%;
 }
 
 .plan-billing {
     background-color: bisque;
     width: 40%;
+    display: flex;
+    align-items: center;
+    
+   
 
     margin-top: 30px;
 
-    /* DEBUG */
-    height: 30px;
+  
 }
 
 .plan-column {
     margin-top: 30px;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 30%;
 
     /* DEBUG */
@@ -112,11 +112,12 @@ justify-content: space-around;
 }
 
 .plan-column-header {
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 100%;
+    text-align: center;
+    padding: 5px 5px;
 
-    /* DEBUG */
-    height: 30px;
+  
 }
 
 .plan-column-container {
@@ -281,3 +282,13 @@ footer {
     font-size: 2rem;
 }
 
+.radius-btn{
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  
+}
+.grey-text{
+    color: grey;
+}
