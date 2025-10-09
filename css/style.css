@@ -47,37 +47,30 @@ justify-content: space-around;
 
 .big-flex-container {
     border: 2px solid blue;
-    width: 70%;
+    width: 60%;
 
     /* DEBUG */
     height: 500px;
 }
 
 .hero-title {
-    background-color: blueviolet;
     width: 100%;
 
-    /* DEBUG */
-    height: 25%;
+
 }
 
 .hero-text {
-    background-color: aquamarine;
     width: 35%;
-
-    /* DEBUG */
-    height: 75%;
+    padding-top: 50px;
 }
 
 .hero-img {
-    background-color: brown;
-    width: 65%;
+    /* background-color: brown; */
+    width: 75%;
     position: relative;
-    left: 373px;
-    bottom: 373px;
+    left: 32%;
+    bottom:28% ;
 
-    /* DEBUG */
-    height: 85%;
 }
 
 .big-container {
@@ -271,8 +264,8 @@ footer {
 .btn{
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .btn-blue{
     background-color: rgb(33, 96, 221);
@@ -285,5 +278,6 @@ footer {
 }
 
 .hero-title{
-    
+    font-size: 2rem;
 }
+
