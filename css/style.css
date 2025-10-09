@@ -127,7 +127,7 @@ padding: 30px;
 
 
     /* DEBUG */
-    height: 800px;
+    min-height: 600px;
 }
 
 .padding-bottom30{
@@ -170,11 +170,16 @@ padding-bottom: 15px;
     margin-top: 50px;
     border: 1px solid black;
     width: 100%;
+   
 
-    /* DEBUG */
-    height: 200px;
+   
+    min-height: 200px;
 }
-
+.btn-special{
+    position: absolute;
+    right: 330px;
+    
+}
 
 .jumbo-img {
     background-color: orange;
