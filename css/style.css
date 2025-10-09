@@ -11,39 +11,44 @@ img {
 
 /* COMMON */
 /* LAYOUT */
-body{
+body {
     font-family: sans-serif;
     font-size: 0.9rem;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
 .header-container {
-    background-color: violet;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
-    height: 80px;
+
 }
 
 .header-item-container {
-display: flex;
-align-items: center;
-justify-content: space-around;
-    background-color: aqua;
-    width: 30%;
-    /* DEBUG */
-    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
 }
 
 .hero-container {
     padding-top: 100px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
+    ;
     background-color: lightblue;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
-   
+
 }
 
 .big-flex-container {
@@ -74,7 +79,7 @@ justify-content: space-around;
     width: 50%;
     position: absolute;
     left: 35%;
-    top:52% ;
+    top: 48%;
 
 }
 
@@ -90,7 +95,7 @@ justify-content: space-around;
 }
 
 .plan-title {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
     width: 65%;
 }
 
@@ -99,20 +104,20 @@ justify-content: space-around;
     width: 40%;
     display: flex;
     align-items: center;
-    
-   
+
+
 
     margin-top: 30px;
 
-  
+
 }
 
 .plan-column {
     margin-top: 30px;
     border: 1px solid grey;
     width: 30%;
-   
-    
+
+
 
     /* DEBUG */
     height: 800px;
@@ -124,7 +129,7 @@ justify-content: space-around;
     text-align: center;
     padding: 5px 5px;
 
-  
+
 }
 
 .plan-column-container {
@@ -265,43 +270,47 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.no-underline{
+
+.no-underline {
     text-decoration: none;
 }
 
-.btn{
-padding: 10px;
+.btn {
+    padding: 10px;
     max-width: 60%;
 }
-.btn-blue{
+
+.btn-blue {
     background-color: rgb(33, 96, 221);
     color: white;
 }
 
-.btn-white{
+.btn-white {
     border: 1px solid grey;
 }
-.logo-small{
-        object-fit: contain;
-        width: 25%;
-        vertical-align: text-bottom;
+
+.logo-small {
+    object-fit: contain;
+    width: 25%;
+    vertical-align: text-bottom;
 }
 
-.hero-title{
+.hero-title {
     font-size: 2rem;
 }
 
-.radius-btn{
+.radius-btn {
     border: 1px solid black;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-  
+
 }
-.grey-text{
+
+.grey-text {
     color: grey;
 }
 
-.big-icon{
+.big-icon {
     font-size: 2.5rem;
 }
