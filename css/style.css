@@ -11,6 +11,10 @@ img {
 
 /* COMMON */
 /* LAYOUT */
+body{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
 
 .header-container {
     background-color: violet;
@@ -22,7 +26,9 @@ img {
 }
 
 .header-item-container {
-
+display: flex;
+align-items: center;
+justify-content: space-around;
     background-color: aqua;
     width: 30%;
     /* DEBUG */
@@ -257,4 +263,27 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.no-underline{
+    text-decoration: none;
+}
+
+.btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.btn-blue{
+    background-color: rgb(33, 96, 221);
+    color: white;
+}
+.logo-small{
+        object-fit: contain;
+        width: 25%;
+        vertical-align: text-bottom;
+}
+
+.hero-title{
+    
 }
